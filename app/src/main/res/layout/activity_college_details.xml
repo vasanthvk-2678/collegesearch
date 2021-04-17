@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EFEF"
+
+    android:padding="5dp"
+    tools:context=".CollegeDetails">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F3EFEF"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:id="@+id/texta1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="loyola College"
+                android:textColor="#223EDA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="DETAILS:"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Established: 1925;96 years ago and campus: Urban 99 arces. "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Type:Private Autonomous Roman Catholic non-profit coeducation higher education institution"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="LOCATION:sterling road,Nungambakkam,Chennai,Tamilnadu-600 034."
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CONTACTUS: 91-44-28178200 "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEES:11.41K"
+                android:textColor="#E91E63"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RATING"
+                android:textColor="#03A9F4"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/rating_bara1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4.6"
+                android:stepSize="0.5" />
+
+            <Button
+                android:id="@+id/buttona41"
+                android:layout_width="389dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#F8F0F0"
+                android:onClick="weba1"
+                android:text="Loyola WEBSITE"
+                android:textColor="#DD1818"
+                app:backgroundTint="#FAF6F6" />
+
+            <TextView
+                android:id="@+id/texta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="psg College of art and technology"
+                android:textColor="#223EDA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="DETAILS:"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Established: 1947; and campus: Urban . "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Type:Private (government Aided)"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="LOCATION:Avinashi Rd,PSG  CAS,civil Aerodrome post,coimbatore-641014."
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CONTACTUS: 0422 430 3300 "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEES:7.850K"
+                android:textColor="#E91E63"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RATING"
+                android:textColor="#03A9F4"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/rating_bara21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4.6"
+                android:stepSize="0.5" />
+
+            <Button
+                android:id="@+id/buttona21"
+                android:layout_width="389dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#F8F0F0"
+                android:onClick="weba2"
+                android:text="psg WEBSITE"
+                android:textColor="#DD1818"
+                app:backgroundTint="#FAF6F6" />
+
+            <TextView
+                android:id="@+id/texta31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queen Mary's College"
+                android:textColor="#223EDA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="DETAILS:"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Established: 14 july 1914;106 years ago and campus: Urban 30 arces. "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Type:Private Autonomous "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="LOCATION:DR radha krisha salai,mylapore,chennai,tamilnadu-600004."
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CONTACTUS: 044 2844 4995 "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEES:10K"
+                android:textColor="#E91E63"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RATING"
+                android:textColor="#03A9F4"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/rating_bara3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4.0"
+                android:stepSize="0.5" />
+
+            <Button
+                android:id="@+id/buttona31"
+                android:layout_width="389dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#F8F0F0"
+                android:onClick="weba3"
+                android:text="queen mary's WEBSITE"
+                android:textColor="#DD1818"
+                app:backgroundTint="#FAF6F6" />
+            <TextView
+                android:id="@+id/texta4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Madras Christian College"
+                android:textColor="#223EDA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="DETAILS:"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Established: 1837;184 years ago and campus: Suburban,365 arces. "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Type:Government aided(minority institution)"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="LOCATION:Tambaram East ,Tambaram,Chennai,Tamilnadu-600 059."
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CONTACTUS: 91-44-28178200 "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEES:10.30K"
+                android:textColor="#E91E63"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RATING"
+                android:textColor="#03A9F4"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/rating_bara4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4.3"
+                android:stepSize="0.5" />
+
+            <Button
+                android:id="@+id/buttona44"
+                android:layout_width="389dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#F8F0F0"
+                android:onClick="weba4"
+                android:text="Madras christian WEBSITE"
+                android:textColor="#DD1818"
+                app:backgroundTint="#FAF6F6" />
+
+            <TextView
+                android:id="@+id/texta5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ethiraj College for Women"
+                android:textColor="#223EDA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="DETAILS:"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Established: 1948 and campus: Urban. "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Type:Private Autonomous"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="LOCATION:70 Ethiraj Road saint gobain vetrotex india limited thousand ,ethiraj salai,Chennai,Tamilnadu-600 008."
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/texta56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CONTACTUS: 91-44-28279189 "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEES:10.38K"
+                android:textColor="#E91E63"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texta58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RATING"
+                android:textColor="#03A9F4"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/rating_bara5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4.2"
+                android:stepSize="0.5" />
+
+            <Button
+                android:id="@+id/buttona45"
+                android:layout_width="389dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#F8F0F0"
+                android:onClick="weba5"
+                android:text="Ethiraj WEBSITE"
+                android:textColor="#DD1818"
+                app:backgroundTint="#FAF6F6" />
+
+        </LinearLayout>
+
+    </ScrollView>

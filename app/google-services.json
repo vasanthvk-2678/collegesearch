@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "122672052602",
+    "firebase_url": "https://collegesearch-97aff-default-rtdb.firebaseio.com",
+    "project_id": "collegesearch-97aff",
+    "storage_bucket": "collegesearch-97aff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122672052602:android:51ee0244f87d08adfa3ec3",
+        "android_client_info": {
+          "package_name": "com.example.shubhamr.collegesearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122672052602-83h0lbs6338frlnmk7dp0i4qbr64hjlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjyjWPpXS0wEpCW5tG-lPqNX5f_hlKXlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122672052602-83h0lbs6338frlnmk7dp0i4qbr64hjlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
